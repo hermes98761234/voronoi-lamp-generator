@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voronoi Lamp Generator: 3D-printable lamp shades with Voronoi openings</title>
+    <meta name="description" content="Free browser tool: design a Voronoi lamp shade, vase or globe with a cylinder, cone, sphere or vase profile, set wall thickness and rib width, preview it in 3D and export a watertight STL for 3D printing. Nothing is uploaded." />
+    <meta name="keywords" content="voronoi lamp, voronoi lampshade generator, 3D printable lamp, voronoi vase, STL generator, parametric lamp, Lloyd relaxation, Manifold, 3D printing" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/voronoi-lamp-generator/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Voronoi Lamp" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Voronoi Lamp Generator" />
+    <meta property="og:url" content="https://hermes98761234.github.io/voronoi-lamp-generator/" />
+    <meta property="og:title" content="Voronoi Lamp Generator" />
+    <meta property="og:description" content="Design a 3D-printable Voronoi lamp shade or vase, preview it in 3D and export STL. Runs in your browser." />
+    <meta property="og:image" content="https://hermes98761234.github.io/voronoi-lamp-generator/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A lamp shade with Voronoi cell openings and the headline: Voronoi Lamp Generator." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Voronoi Lamp Generator" />
+    <meta name="twitter:description" content="3D-printable Voronoi lamp shades and vases with STL export. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/voronoi-lamp-generator/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Voronoi Lamp Generator",
+        "url": "https://hermes98761234.github.io/voronoi-lamp-generator/",
+        "description": "Parametric Voronoi lamp shade and shell generator with 3D preview and watertight STL export.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript, WebGL and WebAssembly",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
